@@ -21,7 +21,7 @@ class PostController extends Controller
     	try{
 
     		$validator = Validator::make($request->all(), [
-                                        'Title' => 'required',
+                                        'Title' => 'required|string|max:50',
                                         'Body' => 'required',
                                         'user' => 'required',
                                         
@@ -107,7 +107,7 @@ class PostController extends Controller
         try{
 
             $validator = Validator::make($request->all(), [
-                                        'Title' => 'required',
+                                        'Title' => 'required|string|max:50',
                                         'Body' => 'required',
                                         
                                     ]);
