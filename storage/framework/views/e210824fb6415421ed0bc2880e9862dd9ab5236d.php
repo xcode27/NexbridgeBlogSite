@@ -32,8 +32,8 @@
                                         '<div class="panel-heading">'+value.Title+'</div>'+
                                             '<div class="panel-body">'+
                                                 '<form class="form-horizontal">'+
-                                                    '<div class="form-group">'+
-                                                        '<div class="col-md-6">'+
+                                                    '<div class="form-group" style="overflow-wrap: break-word;">'+
+                                                        '<div class="col-md-12">'+
                                                             '<span>'+value.Body+'</span>'+
                                                         '</div>'+
                                                     '</div>'+
