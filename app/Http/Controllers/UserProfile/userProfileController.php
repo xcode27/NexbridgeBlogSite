@@ -15,7 +15,7 @@ class userProfileController extends Controller
     public function getUserProfile($author){
 
     	try{
-    			$story = CustomUserModel::select('id','fullname','username','birthdate','photo','visitor')->where('id',$author)->get();
+    			$story = CustomUserModel::select('id','fullname','username','birthdate','photo','visitor','email')->where('id',$author)->get();
     			return \Response::json($story);
 
     	}catch(\Exception $e){

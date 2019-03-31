@@ -236,6 +236,9 @@
                                                     '<td>Birthdate :</td><td>&nbsp;'+value.birthdate+'</td>'+
                                                 '</tr>'+
                                                 '<tr>'+
+                                                    '<td>Emailaddress :</td><td>&nbsp;'+value.email+'</td>'+
+                                                '</tr>'+
+                                                '<tr>'+
                                                     '<td>Visitor :</td><td>&nbsp;'+value.visitor+'</td>'+
                                                 '</tr>'+
                                                 '<tr>'+

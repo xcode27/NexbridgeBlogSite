@@ -41,6 +41,9 @@
                                                 '<tr>'+
                                                     '<td>Visitor :</td><td>'+value.visitor+'</td>'+
                                                 '</tr>'+
+                                                '<tr>'+
+                                                    '<td>Emailaddress :</td><td>'+value.email+'</td>'+
+                                                '</tr>'+
                                             '</table>'+
                                         '</div>'+
                                     '</form>';
